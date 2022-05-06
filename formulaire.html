@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <p>formulaire DWWM</p>
+
+    <div action="" method="post">
+        <div class="gdiv">
+        <div class="div1">
+            Nom
+        </div>
+        <div class="div2">
+            <input type="text" name="" id="Name" placeholder="Entré votre nom">
+        </div>
+    </div>
+        <div class="gdiv">
+            <div class="div1">
+                Email
+            </div>
+            <div class="div2">
+                <input type="Email" name="" id="Email" placeholder="Entrez votre Email">
+                       </div>
+             </div>
+             <div class="gdiv">
+                 <div class="div1">
+                     Indiquez votre satisfaction au <br> cours de 1 à 10
+                 </div>
+                 <div class="div2">
+                     <input type="number" name="" id="satis" placeholder="numéro de 1à 10"> 
+                 </div>
+             </div>
+             <div class ="gdiv">
+                 <div class="div1">
+                     Qui est votre coach!
+                 </div>
+                 <div class="div2">
+                     <select id="coachs">
+                         <option value="Birante">Birante</option>
+                         <option value="Mamadou">Mamadou</option>
+                         <option value="Malick">Malick</option>
+                     </select>
+                 </div>
+             </div>
+
+             <div class="gdiv">
+                 <div class="div1">
+                     Décrivrez votre expérience jusque là
+                 </div>
+                 <div class="div2">
+                     <textarea id="exp" placeholder="décrivez votre expérience ..."rows="5" cols="27"></textarea>
+                 </div>
+   
+        </div>
+             <div id="btn">
+                <button onclick="myfunction()">Vérifier</button>
+             </div>
+             <div>
+                 <p id="Nom"></p>
+             </div>
+             <div>
+                 <p id="email" ></p>
+             </div>
+             <div>
+                 <p id="satisfaction"></p>
+             </div>
+             <div>
+                <p id="coach" ></p>
+             </div>
+             <div>
+                 <p id="exps" ></p>
+             </div>
+        
+            </div>
+    <script src="script.js" ></script>
+    
+</body>
+</html>
